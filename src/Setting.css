@@ -1,0 +1,198 @@
+.setting, .tables{
+    background: #262837;
+    color:#fff;
+    padding: 2rem 5rem;
+    min-height: calc(100vh - 50px);
+    text-align: center;
+}
+.setting h1, .tables h1{
+    margin:0 2rem;
+    font-size: 2rem;
+}
+.add-menu{
+    width: 180px;
+    height: 250px;
+    border: 2px solid #50333b;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-style: dashed;
+    border-radius:20px;
+    margin: 0.5rem;
+}
+.add-menu:hover, .add-table-setting:hover{
+    border: 2px solid #8f6469;
+    border-style: dashed;
+}
+.add-menu:hover  > h3, .add-table-setting:hover >h3{
+    color:#8f6469 ;
+}
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: center;
+    margin: 1rem 3rem;
+}
+.add-menu h3{
+    color: #50333b;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 100;
+}
+/*------MENU ITEM-----------*/
+.menu-item{
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    border-radius:20px;
+    border:2px solid #2e303f;
+    margin:0.5rem;
+    
+}
+.img-menu{
+    width:100%;
+    height: 65%;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    position:relative;
+}
+.delete-menu{
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 0;
+    right: 0;
+    color:#ca3544 ;
+    background:#50333b;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.delete-menu:hover{
+    background: #4b3037;
+}
+
+.img-menu img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.no-img{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    color:#ca3544 ;
+    background:#50333b;
+    outline: none;
+    border: none;
+    width:100%;
+    height:18%;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.btn-order{
+    background:#324c4f ;
+    color: #44DA5F;
+    outline: none;
+    border: none;
+    width:100%;
+    height:18%;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.btn-order:hover{
+    background: #2d4547;
+}
+.btn-secondary:hover{
+    background: #4b3037;
+}
+.add-dish{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    background: #262837;
+    color:#fff;
+    min-height:100vh;
+    width: 100%;
+}
+.add-dish a{
+    text-decoration: underline;
+}
+.input-edit{
+    width: 100%;
+    height: 2rem;
+    background:#00000000;
+    border-radius: 0;
+    border:2px solid #2e303f;
+    margin: 0 ;
+    padding: 0 1rem;
+}
+
+.add-table-setting{
+    width: 100px;
+    height: 150px;
+    border: 2px solid #50333b;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-style: dashed;
+    border-radius:20px;
+    margin: 0.5rem;
+}
+.table-setting-item{
+    width: 100px;
+    height: 150px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    border:2px solid #2e303f;
+    margin:3rem 0.5rem;
+    cursor:pointer;
+}
+.table-setting-item .btn-secondary{
+    height: 20%;
+}
+.update-table .add-table{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    background: #262837;
+    color:#fff;
+    margin:2rem 0;
+}
+.table-manage-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    width:2px;
+    background: #1f1d2c;
+    width: 100%;
+}

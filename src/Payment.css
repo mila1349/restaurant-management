@@ -1,0 +1,53 @@
+.receipt{
+    width:65%;
+    height:100%;
+    padding:5rem;
+    background:#1f1d2c ;
+    color:white;
+}
+table{
+    background: #262837;
+    width:100%;
+    margin:3rem 0;
+}
+td{
+    border:2px solid #1f1d2c;
+    font-size:1.5rem;
+    padding:1rem;
+}
+.table-title{
+    font-size:2rem;
+    text-align:center;
+    font-weight: bolder;
+}
+.total-price{
+    width:300px;
+    position:fixed;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+}
+.total-payment{
+    width:35%;
+    height:100%;
+    background:#1f1d2c ;
+    color:white;
+    padding:5rem;
+}
+.save-btn{
+    padding:0 1rem;
+    background:#324c4f;
+    color: #44DA5F ;
+    border-radius: 5px;
+}
+.save-btn:hover{
+    background:#2a4042 ;
+}
+.receipt-info{
+    display:flex;
+    width:100%;
+}
+.payment{
+    height: calc(100vh - 50px);
+    background:#1f1d2c;
+}

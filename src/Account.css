@@ -1,0 +1,43 @@
+.account{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262837;
+    height: 100vh;
+    color: #fff;
+}
+.account-container{
+    width: 300px;
+    height: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-container{
+    text-align: center;
+}
+input, select{
+    margin: 1rem 0;
+    padding: 1rem;
+    outline: none;
+    background: #2e303f	;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.btn-primary{
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #2e303f	;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background:#3d4052 ;
+}
+
+

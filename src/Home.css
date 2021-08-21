@@ -1,0 +1,35 @@
+.home{
+    width:100%;
+    height:calc(100vh - 50px);
+    color:white;
+    padding:3rem;
+    background: #262837;
+}
+.header-time{
+    display:flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-left: 5rem;
+}
+.box-wrapper{
+    display: flex;
+}
+.box{
+    border-radius: 10px;
+    padding:2rem 3rem;
+    margin: 3rem 5rem 3rem 3rem;   
+    background:#2e303f ;
+    width:25%;
+}
+.blue{
+    color:rgb(29, 216, 185);
+}
+.yellow{
+    color: rgb(199, 211, 35);
+}
+.green{
+    color: rgb(6, 138, 6);
+}
+h4{
+    font-size: 3rem;
+}
